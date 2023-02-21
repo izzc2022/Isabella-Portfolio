@@ -1,3 +1,6 @@
+# PLEASE NOTE - GAME IS IN PROGRESS. NOT FINISHED AT ALL
+# Pocket Python Patch, copyright Isabella C, 2023
+
 import pandas as pd
 import numpy as np
 import time
