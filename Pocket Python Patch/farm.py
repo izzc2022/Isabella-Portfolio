@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import time
 
-shop = pd.read_csv('shop.csv')
 inventory = pd.read_csv('inventory.csv')
+shop = pd.read_csv('shop.csv')
 cook = pd.read_csv('cook.csv')
 
 version = 1.0
