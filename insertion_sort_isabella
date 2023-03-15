@@ -1,0 +1,31 @@
+def insertion_sort(lst):
+    passes = 0
+    for i in range(1, len(lst)):
+        passes = passes + 1
+        print("\nPass: " + str(passes))
+        insert_element(lst, i)
+        print(list)
+
+# To insert element at index next to the front segment
+def insert_element(A, next):
+  i = next
+  value = A[next]
+  while True:
+    if i == 0:
+      value , A[0] = A[0], value
+      break
+    elif A[i-1] <= value:
+      value , A[i] = A[i], value
+      break
+    else:
+      A[i-1] , A[i] = A[i] , A[i-1]
+      i = i - 1
+    #print(A)
+
+list = [23,8,5,7,4,46,98,9,24,56,197,195,213,155,12,18,92,26]
+length = len(list)
+print("Length of list: " + str(length))
+print("Original List:")
+print(list)
+next = list[0]
+insertion_sort(list)
