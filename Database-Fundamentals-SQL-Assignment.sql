@@ -1,3 +1,5 @@
+-- Developed using Oracle Apex, so syntax across different sql platforms may vary
+
 DROP TABLE Object CASCADE CONSTRAINTS PURGE;
 DROP TABLE Trajectory CASCADE CONSTRAINTS PURGE;
 DROP TABLE Modified CASCADE CONSTRAINTS PURGE;
