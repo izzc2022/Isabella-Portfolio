@@ -1,0 +1,16 @@
+% simple Prolog program that displays a small number of heroes, villains and students within Marvel and DC universes
+
+villain(joker,batman).
+villain(green_goblin,spiderman).
+student(spiderman,tony_stark).
+student(robin,batman).
+hero(spiderman,green_goblin).
+hero(batman,joker).
+hero(superman,lex_luther).
+hero(X,Y) :- villain(Y, X).
+hero(X,Y) :- student(Y,X).
+
+% To run, input queries into the terminal such as 
+% ?- hero(batman, X). 
+% ?- hero(X, joker).
+% ?- student(spiderman, X).
