@@ -1,5 +1,6 @@
 # Code by Isabella C
 # Copyright 18-06-2022
+# Please note: I was bored and hungry and indecisive, so I developed this to help me wuicjkly and whilst in the moment
 
 import random
 import time
