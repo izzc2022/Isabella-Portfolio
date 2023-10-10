@@ -1,5 +1,6 @@
 # Code by Isabella C
 # Copyright 18-06-2022
+# Please note: I was bored, hungry and indecisive, so I developed this to help my family and I decide on a dessert quickly and whilst in the moment
 
 import random
 import time
